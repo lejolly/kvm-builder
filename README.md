@@ -127,4 +127,4 @@ to use the correct image and user folder on NCL (this can be done with just a te
 9. And that's it! You can find the IP addresses of each physical and virtual node in the `network-ip.txt` file in the `output` folder.
 
 ## Other Notes
-- There is a limit of 300 physical nodes and 20 virtual nodes (per physical node) (this can of course be changed in the source code). 
+- There is a limit of 300 physical nodes and 20 virtual nodes (per physical node) (this can of course be changed by editing MAX_PHYSICAL_NODES and MAX_VIRTUAL_NODES in [Main.java](src/main/java/Main.java)). 
